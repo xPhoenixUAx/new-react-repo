@@ -1,0 +1,27 @@
+.name{
+    color: green;
+    display: flex;
+    text-align: center;
+    margin-left: 77px;
+    
+}
+.name:hover{
+    transform: scale(1.25);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 3px 3px 8px rgba(0, 2, 6, 0.8);
+}
+.btn{
+    margin-left: 85px;
+    box-shadow: 3px 2px 2px 2px;
+}
+.link{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.link:hover{
+    color: blueviolet;
+    transition: transform 0.5s;
+    transform: scale(2.1);
+}
