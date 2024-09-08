@@ -5,7 +5,7 @@ export default function test(props){
         <>
         <h2 className={styles.name}>{props.name} {props.surname}</h2>
         <button className={styles.btn}>Замовити</button>
-        <p className={styles.link}><a href='https://google.com'>Вхід до інтернетів</a></p>
+        <p className={styles.link}><a href='https://google.com' target='_blank' rel='noopener noreferrer'>Вхід до інтернетів</a></p>
         </>
-    )
-}
+    );
+};
